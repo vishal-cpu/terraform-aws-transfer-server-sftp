@@ -109,18 +109,3 @@ resource "aws_route53_record" "main" {
     aws_transfer_server.transfer_server.endpoint
   ]
 }
-
-
-
-#############################################
-#Custome Hostname Reference in Calling Module
-#############################################
-
-# zone_id      = "${Hosted zone ID}"
-# domain_name  = "${module.labels.id}.${Hosted zone name}"
-# tags = merge(module.labels.tags,
-#   {
-#     "aws:transfer:route53HostedZoneId" = "/hostedzone/"${Hosted zone ID}"",
-#     "aws:transfer:customHostname"      = "${module.labels.id}.${Hosted zone name}"
-#   }
-# )
