@@ -106,4 +106,4 @@ Define users with restricted access to specific S3 paths and unrestricted users 
 
 ## Authors
 
-Module is maintained by [Anton Babenko](https://github.com/vishal-cpu).
+Module is maintained by [Vishal Saini](https://github.com/vishal-cpu).
