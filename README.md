@@ -1,6 +1,3 @@
-
----
-
 # AWS Transfer Server Terraform Module
 
 This Terraform module creates an AWS Transfer Server for SFTP access, along with user management, VPC and public endpoint configurations, and optional Route53 DNS records for custom domains. It also supports flexible user configuration with options for restricted and unrestricted home directories.
@@ -106,7 +103,5 @@ Configure the Transfer Server in a VPC, attach Elastic IPs, and apply security g
 
 ### Restricted and Unrestricted Users
 Define users with restricted access to specific S3 paths and unrestricted users with broader access to directories.
-
----
 
 This `README.md` provides a complete guide to use the module and includes typical scenarios for setting up an AWS Transfer Server with different configurations. Let me know if you'd like any adjustments!
