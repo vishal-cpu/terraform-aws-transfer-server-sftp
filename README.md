@@ -46,7 +46,7 @@ module "sftp_server" {
       ]
     },
 
-    # not_restricted
+    # non_restricted
 
     {
       user_name       = "user_name"
@@ -105,5 +105,4 @@ Configure the Transfer Server in a VPC, attach Elastic IPs, and apply security g
 Define users with restricted access to specific S3 paths and unrestricted users with broader access to directories.
 
 ## Authors
-
 Module is maintained by [Vishal Saini](https://github.com/vishal-cpu).
