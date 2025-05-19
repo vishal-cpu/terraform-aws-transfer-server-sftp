@@ -1,4 +1,8 @@
-# AWS Transfer Server Terraform Module
+# Terraform AWS Transfer Family (SFTP) Server
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Terraform Version](https://img.shields.io/badge/terraform-≥1.3.0-blue)](https://www.terraform.io/)
+
 
 This Terraform module creates an AWS Transfer Server for SFTP access, along with user management, VPC and public endpoint configurations, and optional Route53 DNS records for custom domains. It also supports flexible user configuration with options for restricted and unrestricted home directories.
 
@@ -63,8 +67,8 @@ module "sftp_server" {
 
 | Name | Version |
 |------|---------|
-| Terraform | >= 0.13 |
-| AWS Provider | >= 3.0 |
+| Terraform | ≥ 1.3.0 |
+| AWS Provider | ≥ 4.0 |
 
 ## Inputs
 
